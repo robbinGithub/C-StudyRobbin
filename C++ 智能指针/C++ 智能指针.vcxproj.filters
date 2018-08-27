@@ -21,5 +21,8 @@
     <ClCompile Include="demo02_shared_ptr引用计数,增加和减少的规律.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo03_shared_ptr的实现原理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
