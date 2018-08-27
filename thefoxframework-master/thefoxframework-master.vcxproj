@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD9D8F30-CC13-4615-B8A0-0EE03FAD1C03}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>thefoxframeworkmaster</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3rd\aes\aes.c" />
+    <ClCompile Include="base\test\atomic_integer_unittest.cc" />
+    <ClCompile Include="base\test\condition_untitest.cc" />
+    <ClCompile Include="base\test\debug_win_unittest.cc" />
+    <ClCompile Include="base\test\mem_pool_unittest.cc" />
+    <ClCompile Include="base\test\object_pool_unittest.cc" />
+    <ClCompile Include="base\test\stack_unittest.cc" />
+    <ClCompile Include="base\test\thread_win_unittest.cc" />
+    <ClCompile Include="base\test\timestamp_unittest.cc" />
+    <ClCompile Include="db\test.cc" />
+    <ClCompile Include="log\logging.cc" />
+    <ClCompile Include="log\log_file.cc" />
+    <ClCompile Include="log\log_stdout.cc" />
+    <ClCompile Include="log\log_syslog.cc" />
+    <ClCompile Include="log\testLog.cc" />
+    <ClCompile Include="net\acceptor.cc" />
+    <ClCompile Include="net\asio\tcp_client.cc" />
+    <ClCompile Include="net\asio\tcp_client_test.cc" />
+    <ClCompile Include="net\asio\tcp_connection.cc" />
+    <ClCompile Include="net\asio\tcp_server.cc" />
+    <ClCompile Include="net\asio\tcp_server_test.cc" />
+    <ClCompile Include="net\client_test.cc" />
+    <ClCompile Include="net\epoll_event.cc" />
+    <ClCompile Include="net\event_loop.cc" />
+    <ClCompile Include="net\iocp_event.cc" />
+    <ClCompile Include="net\server_test.cc" />
+    <ClCompile Include="net\socket.cc" />
+    <ClCompile Include="net\tcp_client.cc" />
+    <ClCompile Include="net\tcp_connection.cc" />
+    <ClCompile Include="net\tcp_server.cc" />
+    <ClCompile Include="rpc\rpc.pb.cc" />
+    <ClCompile Include="rpc\rpc_channel.cc" />
+    <ClCompile Include="rpc\rpc_client.cc" />
+    <ClCompile Include="rpc\rpc_controller.cc" />
+    <ClCompile Include="rpc\rpc_server.cc" />
+    <ClCompile Include="rpc\rpc_service.cc" />
+    <ClCompile Include="rpc\rpc_service_manager.cc" />
+    <ClCompile Include="rpc\task_manager.cc" />
+    <ClCompile Include="rpc\test\echo.pb.cc" />
+    <ClCompile Include="rpc\test\testrpcclient.cc" />
+    <ClCompile Include="rpc\test\testrpcserver.cc" />
+    <ClCompile Include="snmp\test.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd\aes\aes.h" />
+    <ClInclude Include="3rd\base64.hpp" />
+    <ClInclude Include="3rd\md5.hpp" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\code_generator.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\command_line_interface.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\cpp\cpp_generator.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\importer.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\java\java_generator.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\parser.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\plugin.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\python\python_generator.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\descriptor.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\descriptor.pb.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\descriptor_database.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\dynamic_message.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\extension_set.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\generated_enum_reflection.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\generated_message_reflection.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\coded_stream.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\gzip_stream.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\printer.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\tokenizer.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\zero_copy_stream.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\zero_copy_stream_impl.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\message.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\message_lite.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\reflection_ops.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\repeated_field.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\service.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\atomicops.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\atomicops_internals_x86_msvc.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\common.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\once.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\platform_macros.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\template_util.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\type_traits.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\text_format.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\unknown_field_set.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\wire_format.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\wire_format_lite.h" />
+    <ClInclude Include="3rd\protobuf\google\protobuf\wire_format_lite_inl.h" />
+    <ClInclude Include="3rd\rapidjson\allocators.h" />
+    <ClInclude Include="3rd\rapidjson\document.h" />
+    <ClInclude Include="3rd\rapidjson\encodedstream.h" />
+    <ClInclude Include="3rd\rapidjson\encodings.h" />
+    <ClInclude Include="3rd\rapidjson\filereadstream.h" />
+    <ClInclude Include="3rd\rapidjson\filestream.h" />
+    <ClInclude Include="3rd\rapidjson\filewritestream.h" />
+    <ClInclude Include="3rd\rapidjson\internal\pow10.h" />
+    <ClInclude Include="3rd\rapidjson\internal\stack.h" />
+    <ClInclude Include="3rd\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="3rd\rapidjson\prettywriter.h" />
+    <ClInclude Include="3rd\rapidjson\rapidjson.h" />
+    <ClInclude Include="3rd\rapidjson\reader.h" />
+    <ClInclude Include="3rd\rapidjson\stringbuffer.h" />
+    <ClInclude Include="3rd\rapidjson\writer.h" />
+    <ClInclude Include="3rd\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="3rd\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="3rd\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="3rd\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="3rd\sha1.hpp" />
+    <ClInclude Include="3rd\xml2json.h" />
+    <ClInclude Include="base\atomic_integer.h" />
+    <ClInclude Include="base\common.h" />
+    <ClInclude Include="base\condition.h" />
+    <ClInclude Include="base\debug_win.h" />
+    <ClInclude Include="base\event.h" />
+    <ClInclude Include="base\file_tools.h" />
+    <ClInclude Include="base\ini_file.h" />
+    <ClInclude Include="base\ip_addr_util.h" />
+    <ClInclude Include="base\mailslot.h" />
+    <ClInclude Include="base\mem_pool.h" />
+    <ClInclude Include="base\mutex.h" />
+    <ClInclude Include="base\object_pool.h" />
+    <ClInclude Include="base\observer.h" />
+    <ClInclude Include="base\read_write_lock.h" />
+    <ClInclude Include="base\ring_buffer.h" />
+    <ClInclude Include="base\scoped_ptr.h" />
+    <ClInclude Include="base\semaphore.h" />
+    <ClInclude Include="base\shared_ptr.h" />
+    <ClInclude Include="base\singleton.h" />
+    <ClInclude Include="base\stack.h" />
+    <ClInclude Include="base\string_unicode.h" />
+    <ClInclude Include="base\string_util.h" />
+    <ClInclude Include="base\sys_util.h" />
+    <ClInclude Include="base\table.h" />
+    <ClInclude Include="base\thread.h" />
+    <ClInclude Include="base\thread_pool.h" />
+    <ClInclude Include="base\thread_util.h" />
+    <ClInclude Include="base\timestamp.h" />
+    <ClInclude Include="base\time_util.h" />
+    <ClInclude Include="base\uuid.h" />
+    <ClInclude Include="db\mysql_connection.h" />
+    <ClInclude Include="db\mysql_result_set.h" />
+    <ClInclude Include="db\mysql_util.h" />
+    <ClInclude Include="log\logging.h" />
+    <ClInclude Include="log\log_file.h" />
+    <ClInclude Include="log\log_stdout.h" />
+    <ClInclude Include="log\log_syslog.h" />
+    <ClInclude Include="net\acceptor.h" />
+    <ClInclude Include="net\asio\buffer.h" />
+    <ClInclude Include="net\asio\callbacks.h" />
+    <ClInclude Include="net\asio\net_asio.h" />
+    <ClInclude Include="net\asio\tcp_client.h" />
+    <ClInclude Include="net\asio\tcp_connection.h" />
+    <ClInclude Include="net\asio\tcp_server.h" />
+    <ClInclude Include="net\buffer.h" />
+    <ClInclude Include="net\callbacks.h" />
+    <ClInclude Include="net\epoll_event.h" />
+    <ClInclude Include="net\event.h" />
+    <ClInclude Include="net\event_loop.h" />
+    <ClInclude Include="net\inet_address.h" />
+    <ClInclude Include="net\iocp_event.h" />
+    <ClInclude Include="net\socket.h" />
+    <ClInclude Include="net\tcp_client.h" />
+    <ClInclude Include="net\tcp_connection.h" />
+    <ClInclude Include="net\tcp_server.h" />
+    <ClInclude Include="rpc\common.h" />
+    <ClInclude Include="rpc\oneway_dispatcher.h" />
+    <ClInclude Include="rpc\rpc.pb.h" />
+    <ClInclude Include="rpc\rpc_channel.h" />
+    <ClInclude Include="rpc\rpc_client.h" />
+    <ClInclude Include="rpc\rpc_codec.h" />
+    <ClInclude Include="rpc\rpc_controller.h" />
+    <ClInclude Include="rpc\rpc_server.h" />
+    <ClInclude Include="rpc\rpc_service.h" />
+    <ClInclude Include="rpc\rpc_service_manager.h" />
+    <ClInclude Include="rpc\task.h" />
+    <ClInclude Include="rpc\task_manager.h" />
+    <ClInclude Include="rpc\test\echo.pb.h" />
+    <ClInclude Include="snmp\Snmp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

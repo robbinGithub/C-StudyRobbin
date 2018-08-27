@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rd\aes\aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\atomic_integer_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\condition_untitest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\debug_win_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\mem_pool_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\object_pool_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\stack_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\thread_win_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\timestamp_unittest.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db\test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log_file.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log_stdout.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log_syslog.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\logging.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\testLog.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\asio\tcp_client.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\asio\tcp_client_test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\asio\tcp_connection.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\asio\tcp_server.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\asio\tcp_server_test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\acceptor.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\client_test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\epoll_event.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\event_loop.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\iocp_event.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\server_test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\socket.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\tcp_client.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\tcp_connection.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net\tcp_server.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\test\echo.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\test\testrpcclient.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\test\testrpcserver.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc_channel.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc_client.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc_controller.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc_server.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc_service.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\rpc_service_manager.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\task_manager.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="snmp\test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd\aes\aes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\cpp\cpp_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\java\java_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\python\python_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\code_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\command_line_interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\importer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\compiler\plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\coded_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\gzip_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\printer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\tokenizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\zero_copy_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\atomicops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\atomicops_internals_x86_msvc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\once.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\platform_macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\template_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\stubs\type_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\descriptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\descriptor.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\descriptor_database.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\dynamic_message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\extension_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\generated_enum_reflection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\generated_message_reflection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\generated_message_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\message_lite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\reflection_ops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\repeated_field.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\service.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\text_format.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\unknown_field_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\wire_format.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\wire_format_lite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\protobuf\google\protobuf\wire_format_lite_inl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\internal\pow10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\internal\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\internal\strfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\allocators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\document.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\encodedstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\encodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\filereadstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\filestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\filewritestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\prettywriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\rapidjson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\stringbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidjson\writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidxml\rapidxml.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidxml\rapidxml_iterators.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidxml\rapidxml_print.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\rapidxml\rapidxml_utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\base64.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\md5.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\sha1.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\xml2json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\atomic_integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\condition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\debug_win.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ini_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ip_addr_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mailslot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mem_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\object_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\read_write_lock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ring_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\scoped_ptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\semaphore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\shared_ptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\string_unicode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\string_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\sys_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\time_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\timestamp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\uuid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db\mysql_connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db\mysql_result_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db\mysql_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log\log_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log\log_stdout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log\log_syslog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log\logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\asio\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\asio\callbacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\asio\net_asio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\asio\tcp_client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\asio\tcp_connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\asio\tcp_server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\acceptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\callbacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\epoll_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\event_loop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\inet_address.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\iocp_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\tcp_client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\tcp_connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net\tcp_server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\test\echo.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\oneway_dispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_channel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_codec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_service.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_service_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\task_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="snmp\Snmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
