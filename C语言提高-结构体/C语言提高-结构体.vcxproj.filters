@@ -27,5 +27,11 @@
     <ClCompile Include="H:\BaiduYunDownload\传智播客第四期C++就业培训视频教程\第四期就业班\03-C语言提高-王保明\第五天（完成）\day5\复件 demo05_深copy浅copy.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\C++20140422_day05\demo07_结构体基础.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\C++20140422_day05\demo08_结构体操作进阶.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

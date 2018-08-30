@@ -66,6 +66,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\C++20140422_day05\demo07_结构体基础.c" />
+    <ClCompile Include="..\C++20140422_day05\demo08_结构体操作进阶.cpp" />
     <ClCompile Include="demo01_结构体基础.c" />
     <ClCompile Include="demo02_结构体做函数参数基础.c" />
     <ClCompile Include="demo04_结构体套二级指针.c" />
