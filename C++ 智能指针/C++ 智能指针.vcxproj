@@ -155,6 +155,7 @@
     <ClCompile Include="demo01_shared_ptr的基本操作.cpp" />
     <ClCompile Include="demo02_shared_ptr引用计数,增加和减少的规律.cpp" />
     <ClCompile Include="demo03_shared_ptr的实现原理.cpp" />
+    <ClCompile Include="demo04_shared_ptr循环引用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

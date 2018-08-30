@@ -24,5 +24,8 @@
     <ClCompile Include="demo03_shared_ptr的实现原理.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo04_shared_ptr循环引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

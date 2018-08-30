@@ -79,7 +79,7 @@ struct Arwen {
 
 
 
-void main() {
+void main_03() {
 
 	shared_ptr<Arwen> myPtr(new Arwen(24));
 
