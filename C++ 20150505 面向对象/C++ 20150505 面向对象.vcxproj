@@ -14,7 +14,7 @@
     <ProjectGuid>{7C08E2A2-3820-4C95-B1AC-59632FE409E0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>C20150505面向对象</RootNamespace>
-    <ProjectName>C++面向对象（构造与析构函数）</ProjectName>
+    <ProjectName>C++ 面向对象（构造与析构函数）</ProjectName>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

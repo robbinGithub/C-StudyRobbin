@@ -14,7 +14,7 @@
     <ProjectGuid>{8E9E64AC-EFB7-418C-8391-FC0B5BDEAC96}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>C日期与时间</RootNamespace>
-    <ProjectName>C++日期与时间</ProjectName>
+    <ProjectName>C++ 日期与时间</ProjectName>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -84,6 +84,7 @@
     <ClCompile Include="demo02_C++ Clock使用.cpp" />
     <ClCompile Include="demo03_C++difftime函数使用.cpp" />
     <ClCompile Include="demo04_localtime和gmtime内存分配问题.cpp" />
+    <ClCompile Include="GetLocalTime.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

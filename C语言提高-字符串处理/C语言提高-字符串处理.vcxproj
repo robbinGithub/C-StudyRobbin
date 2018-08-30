@@ -79,7 +79,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="demo05_两头堵.c" />
     <ClCompile Include="demo01_字符串基础.c" />
+    <ClCompile Include="demo02_字符串copy.c" />
+    <ClCompile Include="demo04_字符串反转.c" />
+    <ClCompile Include="demo03_查找字符串出现次数.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
