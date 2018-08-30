@@ -14,7 +14,7 @@
     <ProjectGuid>{32DA55C1-378E-4C99-87C7-AF3EDF019827}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>C20150510面向对象</RootNamespace>
-    <ProjectName>C++ 面向对象(多态)</ProjectName>
+    <ProjectName>C++ 面向对象-多态</ProjectName>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
