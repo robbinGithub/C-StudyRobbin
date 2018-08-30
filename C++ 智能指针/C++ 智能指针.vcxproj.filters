@@ -27,5 +27,19 @@
     <ClCompile Include="demo04_shared_ptr循环引用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo05_shared_ptr自定义析构函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo06_多线程访问shared_ptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo07_unique_ptr实现测试.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="unique_ptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
