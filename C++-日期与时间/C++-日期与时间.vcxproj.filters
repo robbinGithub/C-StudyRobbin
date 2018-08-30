@@ -27,5 +27,8 @@
     <ClCompile Include="demo04_localtime和gmtime内存分配问题.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GetLocalTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

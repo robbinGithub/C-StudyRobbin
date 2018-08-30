@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++StudyRobbin", "C++StudyRobbin\C++StudyRobbin.vcxproj", "{56BF3EF5-37AD-4651-B441-5BE0F28A2898}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "day02", "day02\day02.vcxproj", "{50EFF957-1486-4DAA-B610-0939D9A39BC7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "day03", "day03\day03.vcxproj", "{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 语法基础", "C++StudyRobbin\C++StudyRobbin.vcxproj", "{56BF3EF5-37AD-4651-B441-5BE0F28A2898}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二级指针三种内存模型", "二级指针三种内存模型\二级指针三种内存模型.vcxproj", "{3787C906-CAE7-46FE-BE84-A600F1F92E82}"
 EndProject
@@ -15,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表课堂操练", "链�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kernerlist", "kernerlist\kernerlist.vcxproj", "{F7724E2A-7030-49C1-9D8A-9944B6757A5E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20140514 企业级财富库 (一) 线性表", "企业级链表测试\企业级链表测试.vcxproj", "{CC2608CB-EC48-4963-A2B9-8A5F4E98B87C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 企业级财富库 (一) 线性表", "企业级链表测试\企业级链表测试.vcxproj", "{CC2608CB-EC48-4963-A2B9-8A5F4E98B87C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20140429", "C++ 20140429\C++ 20140429.vcxproj", "{0DDC85FD-141C-4DE9-ABB7-E61678B97849}"
 EndProject
@@ -25,33 +21,29 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++20140422_day05_结构体
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20140430 结构体读写", "C++ 20140430 结构体读写\C++ 20140430 结构体读写.vcxproj", "{A4080DD8-AEFE-44EC-9B4D-12E8C925DB3B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++面向对象（构造与析构函数）", "C++ 20150505 面向对象\C++ 20150505 面向对象.vcxproj", "{7C08E2A2-3820-4C95-B1AC-59632FE409E0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blog Demo", "Blog Demo\Blog Demo.vcxproj", "{FAF6F856-BC1F-4358-85AE-B57F638F352A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 面向对象（构造与析构函数）", "C++ 20150505 面向对象\C++ 20150505 面向对象.vcxproj", "{7C08E2A2-3820-4C95-B1AC-59632FE409E0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20140506 类", "C++ 20140506 类\C++ 20140506 类.vcxproj", "{DC775222-7C57-4073-A881-77D4049946D8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++2014008_封闭继承", "C++2014008_day15_封闭继承\C++2014008_day15_封闭继承.vcxproj", "{742A0930-6406-4E96-99CD-ABAAE8FFD03E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++面向对象(多态)", "C++20150510 面向对象\C++20150510 面向对象.vcxproj", "{32DA55C1-378E-4C99-87C7-AF3EDF019827}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 面向对象(多态)", "C++20150510 面向对象\C++20150510 面向对象.vcxproj", "{32DA55C1-378E-4C99-87C7-AF3EDF019827}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket抽象类的工程应用", "socket抽象类的工程应用\socket抽象类的工程应用.vcxproj", "{80CEF0D2-ABCF-4498-96BB-5F468AF9D7A6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20150413 标准库", "C++ 20150413 标准库\C++ 20150413 标准库.vcxproj", "{1FF3FA28-F923-4968-B439-A06DF667C726}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20150516 企业级财富库（二) 链表堆栈", "C++ 20150516 企业级财富库\C++ 20150516 企业级财富库.vcxproj", "{9DB8C2C9-981D-440F-B19A-60740934A826}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 企业级财富库（二) 链表堆栈", "C++ 20150516 企业级财富库\C++ 20150516 企业级财富库.vcxproj", "{9DB8C2C9-981D-440F-B19A-60740934A826}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 算法与数据结构-排序", "C++ 20140519 排序\C++ 20140519 排序.vcxproj", "{B0D3F4A2-5598-40C6-833C-1BD174273411}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++模板技术 泛型", "C++ 20150611 函数指针 泛型\C++ 20150611 函数指针 泛型.vcxproj", "{231B67EA-403D-4FAA-B4A0-A0E8E02E7495}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC应用程序动态加载dll项目", "MFC应用程序动态加载dll项目\MFC应用程序动态加载dll项目.vcxproj", "{D6671ADD-4FA4-4826-9232-17E81A750545}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 模板技术 泛型", "C++ 20150611 函数指针 泛型\C++ 20150611 函数指针 泛型.vcxproj", "{231B67EA-403D-4FAA-B4A0-A0E8E02E7495}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socketclient-起点", "socketclient\socketclient.vcxproj", "{E6094FED-6235-479E-8D83-05D321F62D31}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socketclient-测试", "sockeclient-测试\sockeclient-测试.vcxproj", "{CD733797-8A91-486E-9679-6E03E3E90094}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20150517 企业级财富库 (三）队列", "C++ 20150517 企业级财富库(二)\C++ 20150517 企业级财富库(二).vcxproj", "{E880632F-FDBC-48E4-9A44-69210FF07BBA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 企业级财富库 (三）队列", "C++ 20150517 企业级财富库(二)\C++ 20150517 企业级财富库(二).vcxproj", "{E880632F-FDBC-48E4-9A44-69210FF07BBA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20150601 Socket", "C++ 20150601 socket\C++ 20150601 socket.vcxproj", "{0C9FE714-0C12-4A44-8209-DC7C54758931}"
 EndProject
@@ -75,11 +67,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socketclientrobbin动态库
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C语言提高-链表", "C语言提高-链表\C语言提高-链表.vcxproj", "{149D23A1-C0A9-4BBC-B679-4E99A47588AB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "downloadlist", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cJSONFiles", "cJSONFiles\cJSONFiles.vcxproj", "{A3EC4A22-76B7-47AC-8D6D-3F3A1390B780}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CProblemResolver", "CProblemResolver\CProblemResolver.vcxproj", "{9EBDF6DF-0748-487F-A699-8D373BF7A4D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C语言提高-解惑", "CProblemResolver\CProblemResolver.vcxproj", "{9EBDF6DF-0748-487F-A699-8D373BF7A4D8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C语言文件操作", "C语言文件操作\C语言文件操作.vcxproj", "{20A0E8B5-C0D8-44C8-9B47-C48D7A9B420B}"
 EndProject
@@ -93,7 +83,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C语言-并发编程", "C�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thefoxframework-master", "thefoxframework-master\thefoxframework-master.vcxproj", "{DD9D8F30-CC13-4615-B8A0-0EE03FAD1C03}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++日期与时间", "C++-日期与时间\C++-日期与时间.vcxproj", "{8E9E64AC-EFB7-418C-8391-FC0B5BDEAC96}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 日期与时间", "C++-日期与时间\C++-日期与时间.vcxproj", "{8E9E64AC-EFB7-418C-8391-FC0B5BDEAC96}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 新特性", "C++11新特性\C++11新特性.vcxproj", "{C7A403D4-79E9-4434-BE37-0928C950F177}"
 EndProject
@@ -127,30 +117,6 @@ Global
 		{56BF3EF5-37AD-4651-B441-5BE0F28A2898}.Release|Win32.ActiveCfg = Release|Win32
 		{56BF3EF5-37AD-4651-B441-5BE0F28A2898}.Release|Win32.Build.0 = Release|Win32
 		{56BF3EF5-37AD-4651-B441-5BE0F28A2898}.Release|x64.ActiveCfg = Release|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Debug|Win32.ActiveCfg = Debug|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Debug|Win32.Build.0 = Debug|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Debug|x64.ActiveCfg = Debug|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Release|Any CPU.ActiveCfg = Release|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Release|Win32.ActiveCfg = Release|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Release|Win32.Build.0 = Release|Win32
-		{50EFF957-1486-4DAA-B610-0939D9A39BC7}.Release|x64.ActiveCfg = Release|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Debug|Win32.Build.0 = Debug|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Debug|x64.ActiveCfg = Debug|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Release|Any CPU.ActiveCfg = Release|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Release|Win32.ActiveCfg = Release|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Release|Win32.Build.0 = Release|Win32
-		{3CC74BAE-DDD5-4F7A-BA86-E4AED7E259B3}.Release|x64.ActiveCfg = Release|Win32
 		{3787C906-CAE7-46FE-BE84-A600F1F92E82}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{3787C906-CAE7-46FE-BE84-A600F1F92E82}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{3787C906-CAE7-46FE-BE84-A600F1F92E82}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -259,18 +225,6 @@ Global
 		{7C08E2A2-3820-4C95-B1AC-59632FE409E0}.Release|Win32.ActiveCfg = Release|Win32
 		{7C08E2A2-3820-4C95-B1AC-59632FE409E0}.Release|Win32.Build.0 = Release|Win32
 		{7C08E2A2-3820-4C95-B1AC-59632FE409E0}.Release|x64.ActiveCfg = Release|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Debug|Win32.ActiveCfg = Debug|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Debug|Win32.Build.0 = Debug|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Debug|x64.ActiveCfg = Debug|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Release|Any CPU.ActiveCfg = Release|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Release|Win32.ActiveCfg = Release|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Release|Win32.Build.0 = Release|Win32
-		{FAF6F856-BC1F-4358-85AE-B57F638F352A}.Release|x64.ActiveCfg = Release|Win32
 		{DC775222-7C57-4073-A881-77D4049946D8}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{DC775222-7C57-4073-A881-77D4049946D8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{DC775222-7C57-4073-A881-77D4049946D8}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -367,18 +321,6 @@ Global
 		{231B67EA-403D-4FAA-B4A0-A0E8E02E7495}.Release|Win32.ActiveCfg = Release|Win32
 		{231B67EA-403D-4FAA-B4A0-A0E8E02E7495}.Release|Win32.Build.0 = Release|Win32
 		{231B67EA-403D-4FAA-B4A0-A0E8E02E7495}.Release|x64.ActiveCfg = Release|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Debug|Win32.Build.0 = Debug|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Debug|x64.ActiveCfg = Debug|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Release|Any CPU.ActiveCfg = Release|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Release|Win32.ActiveCfg = Release|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Release|Win32.Build.0 = Release|Win32
-		{D6671ADD-4FA4-4826-9232-17E81A750545}.Release|x64.ActiveCfg = Release|Win32
 		{E6094FED-6235-479E-8D83-05D321F62D31}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{E6094FED-6235-479E-8D83-05D321F62D31}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{E6094FED-6235-479E-8D83-05D321F62D31}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -547,18 +489,6 @@ Global
 		{149D23A1-C0A9-4BBC-B679-4E99A47588AB}.Release|Win32.ActiveCfg = Release|Win32
 		{149D23A1-C0A9-4BBC-B679-4E99A47588AB}.Release|Win32.Build.0 = Release|Win32
 		{149D23A1-C0A9-4BBC-B679-4E99A47588AB}.Release|x64.ActiveCfg = Release|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Debug|Win32.ActiveCfg = Debug|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Debug|Win32.Build.0 = Debug|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Debug|x64.ActiveCfg = Debug|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Release|Any CPU.ActiveCfg = Release|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Release|Win32.ActiveCfg = Release|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Release|Win32.Build.0 = Release|Win32
-		{AA71A5FB-64D7-475D-A8EB-2438F0AB5829}.Release|x64.ActiveCfg = Release|Win32
 		{A3EC4A22-76B7-47AC-8D6D-3F3A1390B780}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{A3EC4A22-76B7-47AC-8D6D-3F3A1390B780}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{A3EC4A22-76B7-47AC-8D6D-3F3A1390B780}.Debug|Mixed Platforms.Build.0 = Debug|Win32

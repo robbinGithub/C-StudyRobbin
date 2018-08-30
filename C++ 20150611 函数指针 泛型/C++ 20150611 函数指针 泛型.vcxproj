@@ -14,7 +14,7 @@
     <ProjectGuid>{231B67EA-403D-4FAA-B4A0-A0E8E02E7495}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>C20150611函数指针泛型</RootNamespace>
-    <ProjectName>C++模板技术 泛型</ProjectName>
+    <ProjectName>C++ 模板技术 泛型</ProjectName>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
