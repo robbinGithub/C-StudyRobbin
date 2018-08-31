@@ -213,10 +213,131 @@ void test_mem3()
 	cout << "交换后，当前vector 的容量为: " << iVec.capacity() << endl;
 }
 
+/*
+ * vector的size和capacity、resize和reserve的区别
+ *
+ * @date 2018/08/31 10:49
+ * @see https://blog.csdn.net/q_l_s/article/details/52946769
+ */
+void test_101()
+{
+	vector<int> iVec;
+	iVec.push_back(1);
+	cout << "容器 大小为: " << iVec.size() << endl;
+	cout << "容器 容量为: " << iVec.capacity() << endl; //1个元素， 容器容量为1
+	
+	/*
+	   reserver函数用来给vector预分配存储区大小，即capacity的值 ，但是没有给这段内存进行初始化。
+	   reserve 的参数n是推荐预分配内存的大小，实际分配的可能等于或大于这个值，即n大于capacity的值，就会reallocate内存 capacity的值会大于或者等于n 。
+	   这样，当ector调用push_back函数使得size 超过原来的默认分配的capacity值时 避免了内存重分配开销。
+	 */
 
-void main_0102(){
+	// void reserve (size_type n);
+	iVec.reserve(16);
+	cout << "容器 大小为: " << iVec.size() << endl;
+	cout << "容器 容量为: " << iVec.capacity() << endl; //1个元素， 容器容量为16
+	// cout << "容器 值[15]: " << iVec[15] << endl;
+	/*
+	  resize函数重新分配大小，改变容器的大小，并且创建对象
+	  当n小于当前size()值时候，vector首先会减少size()值 保存前n个元素，然后将超出n的元素删除(remove and destroy)
+	  当n大于当前size()值时候，vector会插入相应数量的元素 使得size()值达到n，并对这些元素进行初始化，如果调用上面的第二个resize函数，指定val，vector会用val来初始化这些新插入的元素
+	  当n大于capacity()值的时候，会自动分配重新分配内存存储空间。
+	*/
+	// void resize (size_type n, value_type val);
+	iVec.resize(100);
+	// iVec.resize(100, 10); 
 
-	test_mem3();
+	cout << "容器 大小为: " << iVec.size() << endl;
+	cout << "容器 容量为: " << iVec.capacity() << endl; //32个元素， 容器容量为32
+	cout << "容器 值[90]: " << iVec[90] << endl;
+
+	iVec.resize(2);
+	cout << "容器 大小为: " << iVec.size() << endl;
+	cout << "容器 容量为: " << iVec.capacity() << endl; //2个元素， 容器容量为100
+
+	cout << "================= vector clear =================" << endl;
+	iVec.clear();
+	cout << "容器 大小为: " << iVec.size() << endl;
+	cout << "容器 容量为: " << iVec.capacity() << endl; //0个元素， 容器容量为100
+}
+
+/*
+ * vector swap函数
+ */
+void test_102()
+{
+
+	std::vector<int> foo;
+	foo.push_back(1);
+	foo.push_back(2);
+	foo.push_back(3);
+	foo.push_back(4);
+	foo.push_back(5);
+
+	std::vector<int> bar;
+	bar.push_back(6);
+	bar.push_back(7);
+
+
+	std::cout << "foo size:" << foo.size() << std::endl;
+	std::cout << "foo capacity:" << foo.capacity() << std::endl;
+
+	std::cout << "bar size:" << bar.size() << std::endl;
+	std::cout << "bar capacity:" << bar.capacity() << std::endl;
+	foo.swap(bar);
+
+	std::cout << "after swap foo size:" << foo.size() << std::endl;
+	std::cout << "after swap foo capacity:" << foo.capacity() << std::endl;
+
+	std::cout << "after swap bar size:" << bar.size() << std::endl;
+	std::cout << "after swap bar capacity:" << bar.capacity() << std::endl;
+}
+
+
+
+/*
+ * vector的内存释放
+ */
+
+template <class T> void swap(T& a, T& b)
+{
+	T c(a); a = b; b = c;
+}
+
+void test_103()
+{
+
+	vector <string> v;
+	char ch;
+
+	for (int i = 0; i < 1000000; i++)
+		v.push_back("hello vector");
+	cin >> ch;
+
+	// 此时检查内存情况 占用54M
+
+	v.clear();
+	cin >> ch;
+
+	// 此时再次检查， 仍然占用54M
+
+	cout << "Vector 的 容量为" << v.capacity() << endl;
+
+	// 此时容量为 1048576
+
+	vector<string>().swap(v);
+
+	cout << "Vector 的 容量为" << v.capacity() << endl;
+
+	// 此时容量为0
+	cin >> ch;
+
+	// 检查内存，释放了 10M+ 即为数据内存
+}
+
+void main(){
+
+	test_102();
 	system("pause");
 }
 
@@ -260,4 +381,5 @@ void main_0111111()
 
 	system("pause");
 }
+
 
