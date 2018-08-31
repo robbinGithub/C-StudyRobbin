@@ -77,7 +77,7 @@ void main1012()
 }
 
 
- int main()
+ int main_1001()
 // int main()
 {
 	 main1010();
