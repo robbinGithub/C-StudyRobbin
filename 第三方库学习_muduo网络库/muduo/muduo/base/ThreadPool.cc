@@ -33,7 +33,7 @@ void ThreadPool::start(int numThreads)
 {
   assert(threads_.empty());
   running_ = true;
-  threads_.reserve(numThreads);
+  threads_.reserve(numThreads);  // reserve设置容量
   for (int i = 0; i < numThreads; ++i)
   {
     char id[32];
@@ -49,15 +49,17 @@ void ThreadPool::stop()
   {
   MutexLockGuard lock(mutex_);
   running_ = false;
-  cond_.notifyAll();
+  cond_.notifyAll();  // 停止线程池，通知等待处理任务的线程
   }
+  // 主线程中调用线程池中的线程join
   for_each(threads_.begin(),
            threads_.end(),
            boost::bind(&muduo::Thread::join, _1));
 }
 
 void ThreadPool::run(const Task& task)
-{
+{ 
+  // 池中线程为空，则在当前线程中执行，否则添加到任务队列中，通知等待执行任务的线程
   if (threads_.empty())
   {
     task();
