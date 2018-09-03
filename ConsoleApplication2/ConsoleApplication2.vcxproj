@@ -89,6 +89,7 @@
     <ClCompile Include="二级指针第二种内存模型.c" />
     <ClCompile Include="多维数据线性存储证明.c" />
     <ClCompile Include="指针数组.c" />
+    <ClCompile Include="一维数组做函数参数_robbin.cpp" />
     <ClCompile Include="数组指针.c" />
   </ItemGroup>
   <ItemGroup>

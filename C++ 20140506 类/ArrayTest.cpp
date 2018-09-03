@@ -2,7 +2,7 @@
 #include "Array.h"
 using namespace std;
 
-int main()
+int main_000()
 {
     Array a1(10);
     
