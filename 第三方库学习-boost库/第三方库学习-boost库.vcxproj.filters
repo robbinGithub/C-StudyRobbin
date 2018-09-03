@@ -18,8 +18,5 @@
     <ClCompile Include="demo01_boost中的指针容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="demo02_boost.circular_buffer学习.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

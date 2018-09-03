@@ -33,7 +33,7 @@ class BoundedBlockingQueue : boost::noncopyable
     MutexLockGuard lock(mutex_);
     while (queue_.full())
     {
-      notFull_.wait();  // 条件：非满
+      notFull_.wait();
     }
     assert(!queue_.full());
     queue_.push_back(x);
@@ -45,7 +45,7 @@ class BoundedBlockingQueue : boost::noncopyable
     MutexLockGuard lock(mutex_);
     while (queue_.empty())
     {
-      notEmpty_.wait();  // 条件：非空
+      notEmpty_.wait();
     }
     assert(!queue_.empty());
     T front(queue_.front());

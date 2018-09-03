@@ -39,7 +39,6 @@ class AsyncLogging : boost::noncopyable
   {
     running_ = true;
     thread_.start();
-	//必须等到latch_变为0才能从start函数中返回，这表明初始化已经完成
     latch_.wait();
   }
 
@@ -47,7 +46,7 @@ class AsyncLogging : boost::noncopyable
   {
     running_ = false;
     cond_.notify();
-    thread_.join();// 主线程通过变量running控制后端日志线程停止,并等待子线程结束.
+    thread_.join();
   }
 
  private:

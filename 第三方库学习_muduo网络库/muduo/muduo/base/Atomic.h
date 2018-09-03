@@ -45,18 +45,7 @@ class AtomicIntegerT : boost::noncopyable
 
   T getAndAdd(T x)
   {
-	  /*
-	   *  1 从缓存取到寄存器
-	   *  2 在寄存器加1
-	   *  3 存入缓存。
-	   *  @see https://blog.csdn.net/i_am_jojo/article/details/7591743
-	   */
-	// __sync_fetch_and_add反汇编出来的指令
-	// 804889d: f0 83 05 50 a0 04 08 lock addl $0x1,0x804a050
-    // lock是锁FSB，前端串行总线，front serial bus,这个FSB是处理器和RAM之间的总线，
-	// 锁住了它，就能阻止其他处理器或者core从RAM获取数据
-   
-    return __sync_fetch_and_add(&value_, x); // lock前缀的意思是对内存区域的排他性访问
+    return __sync_fetch_and_add(&value_, x);
   }
 
   T addAndGet(T x)

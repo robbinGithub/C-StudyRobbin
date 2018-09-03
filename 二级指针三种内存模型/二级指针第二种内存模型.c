@@ -30,7 +30,7 @@ void main21()
 		}
 	}
 
-	// 打印第二种内存模型
+	//打印第二种内存模型
 	for (i = 0; i<4; i++)
 	{
 		printf("%s \n", myArray[i]);

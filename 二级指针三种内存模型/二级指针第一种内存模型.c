@@ -2,9 +2,8 @@
 #include "stdlib.h"
 #include "string.h"
 
-
-// 二级指针第一种内存模型
-void main_10()
+//二级指针第一种内存模型
+void main01()
 {
 	int i = 0, j = 0;
 	char *tmp = NULL;
@@ -16,7 +15,8 @@ void main_10()
 		printf("%s \n", ArrayStr[i]);
 	}
 
-	// 排序
+	//排序
+
 	for (i = 0; i<4; i++)
 	{
 		for (j = i + 1; j<4; j++)
@@ -70,7 +70,7 @@ int sortArrayStr(char **ArrayStr, int iNum)
 }
 
 //二级指针第一种内存模型
-void main_001()
+void main1232()
 {
 	char *ArrayStr[] = { "ccccc", "aaaa", "bbbb", "11111" }; // 指针数组  ArrayStr指向指针数组首地址的地址   *ArrayStr指针数组首地址
 	//p2      P     ccccc

@@ -30,14 +30,14 @@ private:
 	int c;
 
 public:
-	int getC() const { return c; } // 在C++中，若一个变量声明为const类型，则试图修改该变量的值的操作都被视编译错误
+	int getC() const { return c; }
 	void setC(int val) { c = val; }
 };
 
-int main_15()
+int main150()
 {
 	MyTest t1(1, 2); 
-	printf("c:%d", t1.getC()); //请问c的值是？  c:-858993460
+	printf("c:%d", t1.getC()); //请问c的值是？
 	system("pause");
 	return 0;
 }
