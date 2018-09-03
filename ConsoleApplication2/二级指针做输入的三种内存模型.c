@@ -162,7 +162,7 @@ char **getArray3(char **p1, int num1, char(*p2)[30], int num2, int *num3)
 	return tmpp3;
 }
 
-int main_210()
+int main()
 {
 	if (NULL == 0)
 	{

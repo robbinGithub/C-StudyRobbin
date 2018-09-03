@@ -84,7 +84,7 @@ int run3()
 	return 0;
 }
 
-int main_140()
+int main140()
 {
 	run2();
 	//run3();

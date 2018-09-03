@@ -65,7 +65,7 @@ void test_01()
 	d = d2;
 	// EE e1(3, d );
 }
-void main_12()
+void main_XX()
 {
 	test_01();
 	system("pause");

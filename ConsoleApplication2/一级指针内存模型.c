@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-int func_01()
+int main_01()
 {
 	int i = 0;
 	int *p = &i;
@@ -33,10 +32,10 @@ int func_01()
 	   a与&a值相同，但是类型不同，步长不同
 	 */
 	int a[5] = { 1, 2, 3, 4, 5 };
-	printf("数组元素指针:%p \n", a);
+	printf("数组元素指针:%p \n", a);  
 	printf("数组元素指针+1:%p \n", a + 1);
-	printf("数组指针:%p \n", &a); // 数组指针，也是第一个元素地址， == a
-	printf("数组指针+1:%p \n", &a + 1); // 数组地址 + 步长(5 * 4)
+	printf("数组指针:%p \n", &a);
+	printf("数组指针+1:%p \n", &a + 1);
 
 
 	// sizeof

@@ -66,7 +66,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="三种内存模型比较 .cpp" />
     <ClCompile Include="二级指针第二种内存模型.c" />
     <ClCompile Include="二级指针第一种内存模型.c" />
   </ItemGroup>

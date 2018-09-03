@@ -40,11 +40,11 @@ class BlockingQueue : boost::noncopyable
     // always use a while-loop, due to spurious wakeup
     while (queue_.empty())
     {
-      notEmpty_.wait();      // 队列非空
+      notEmpty_.wait();
     }
     assert(!queue_.empty());
-    T front(queue_.front()); // c.front()返回c容器的第一个元素
-    queue_.pop_front();      // 删除开头位置的元素
+    T front(queue_.front());
+    queue_.pop_front();
     return front;
   }
 
@@ -55,9 +55,9 @@ class BlockingQueue : boost::noncopyable
   }
 
  private:
-  mutable MutexLock mutex_;    // 互斥量
-  Condition         notEmpty_; // 条件变量(队列非空)
-  std::deque<T>     queue_;    // 两端队列
+  mutable MutexLock mutex_;
+  Condition         notEmpty_;
+  std::deque<T>     queue_;
 };
 
 }
