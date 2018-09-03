@@ -5,10 +5,10 @@ class Location
 {
 public:
 	Location( int xx = 0 , int yy = 0 )//默认值
-	{X = xx ;  Y = yy ;  cout << "Constructor Object.\n" ;}
+	{X = xx ;  Y = yy ;   cout << X << "," << Y << "Constructor Object.\n" ;}
 
     Location( const Location & p ) 	    //复制构造函数（指针内容不可改变)
-	{X = p.X ;  Y = p.Y ;   cout << "Copy_constructor called." << endl ;  }
+	{X = p.X ;  Y = p.Y ;    cout << X << "," << Y << "Copy_constructor called." << endl ;  }
 
 	~Location() { cout << X << "," << Y << " Object destroyed." << endl ; }
 	int  GetX () { return X ; }

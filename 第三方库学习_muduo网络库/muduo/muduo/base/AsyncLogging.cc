@@ -6,6 +6,11 @@
 
 using namespace muduo;
 
+/*
+ * muduo库阅读（16）——异步日志类
+ * @see https://blog.csdn.net/nb_vol_1/article/details/49745477
+ *      https://blog.csdn.net/luotuo44/article/details/19254157
+ */
 AsyncLogging::AsyncLogging(const string& basename,
                            size_t rollSize,
                            int flushInterval)
