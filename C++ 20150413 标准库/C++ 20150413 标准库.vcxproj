@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="demo21_C++优化之使用emplace.cpp" />
     <ClCompile Include="复件 demo04_list入门.cpp" />
     <ClCompile Include="复件 demo01_vector入门.cpp" />
     <ClCompile Include="复件 demo02_stack入门.cpp" />
