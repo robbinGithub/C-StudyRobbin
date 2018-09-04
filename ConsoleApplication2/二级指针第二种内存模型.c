@@ -17,6 +17,8 @@
 // 二维数组指针退化
 // int printfArray2(char pArray[10][30], int num)//  OK
 // int printfArray2(char pArray[][30], int num)//  OK
+// int printfArray2(char (* pArray)[30], int num)//  OK 数组指针
+
  int printfArray2(char(*pArray)[30], int num) // OK 数组指针 
 {
 	int rv = 0;
@@ -33,7 +35,8 @@
 	return rv;
 
 }
-
+ 
+// 值传递，传递的是二维数组第一维的指针，步长30
 //int sortArray2(char pArray[10][30], int num)
 int sortArray2(char pArray[][30], int num)
 {
@@ -65,7 +68,7 @@ int sortArray2(char pArray[][30], int num)
 }
 
 
-int main_024()
+int main()
 {
 	
 	char bufArray[10][30] = { "cccc", "aaaa", "bbbb", "dddd" };

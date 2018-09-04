@@ -70,7 +70,7 @@ void print5(int* arr, size_t size)
 }
 
 
-int main()
+int main_x1()
 {
 	int pc[] = { 0,1,2,3,4,5,6,7,8,9 };
 	print5(pc, 10);
