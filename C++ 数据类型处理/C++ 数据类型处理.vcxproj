@@ -156,6 +156,7 @@
     <ClCompile Include="demo01_string的基本用法.cpp" />
     <ClCompile Include="demo02_自定义my_string.cpp" />
     <ClCompile Include="demo03_自定义xsring测试.cpp" />
+    <ClCompile Include="demo4_关于C++ double浮点数精度丢失的分析_robbin.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -30,5 +30,13 @@
     <ClCompile Include="demo05_两头堵.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="myString.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
