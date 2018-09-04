@@ -3,7 +3,7 @@
 #include "string.h"
 
 
-void main(){
+void main_051(){
 	int ret = 0;
 	char instr[] = "  rwe  ";
 	char outstr[200];
