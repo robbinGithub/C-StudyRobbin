@@ -9,6 +9,7 @@ void con_float(float n);
     
 	8bits（指数位） 
     23bits（尾数位），最大整数8388607   11111111111111111111111  838.8607万
+	精度是指一共七位比如123456.7
 
     78.375   
     1001110.011
@@ -18,7 +19,8 @@ void con_float(float n);
     2097151   21位
  *   
  *
- * @进制转换工具 http://tool.oschina.net/hexconvert/
+ *  进制转换工具：          http://tool.oschina.net/hexconvert/
+ *  单精度浮点数内存中编码：https://www.h-schmidt.net/FloatConverter/IEEE754.html
  *
  * @see https://www.cnblogs.com/c-primer/p/5992696.html
  *      https://blog.csdn.net/cai870808/article/details/24907853
@@ -46,7 +48,7 @@ int main()
 	// 二进制：  11000000111000.10010001001001101110100101111000110101
 
 	// 【科学计数】
-	// 1.100000011100010010001001001101110100101111000110101
+	// 1.100000011100010010001001001101110100101111000110101 * 2^13
 	// 符号:  0
 	// 指数： 13  13+127 = 140 =>10001100
     // 尾数： 10000001110001001000100 后面移除掉1001101110100101111000110101,尾数超过23位,最后一位1则进位
@@ -64,9 +66,14 @@ int main()
 	printf("f3 + 1:%f \n", f3 + 1); // 838861.125000
 	printf("f4 address:%p\n", &f4);
 
-	printf("f5:%f, address:%p\n",f5, &f5); 
-
+	printf("f5:%f, address:%p\n",f5, &f5);
 	con_float(f5);
+
+	// 1.50000763  1.500008
+	float f6 = 1.5000076293945312; // 1.10000000000000001
+	printf("f6:%f, address:%p\n", f6, &f6);
+	con_float(f6);
+	// 0 01111111 10000000000000001000000
 
 	// f4: acc5a742
 	// 1bit（符号位） 8bits（指数位）   23bits（尾数位）
@@ -75,6 +82,12 @@ int main()
 	// f1
 	// 1 00110101 00110011001100100111111
 
+	printf("================== printf float ============\n");
+	float f7 = 1.12345678;
+	printf("f7:%f, address:%p\n", f7, &f7);
+	con_float(f7);
+
+	
 	system("pause");
 }
 
