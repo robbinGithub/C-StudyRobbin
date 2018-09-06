@@ -28,7 +28,7 @@ void str_copy4(char *from, char*to){
 		;  //后缀++优先级高于*p
 	}
 }
-void main2(){
+void main_032(){
 	char from[100] = { 0 };
 	char to[100] = { 0 };
 	strcpy(from, "abcd");

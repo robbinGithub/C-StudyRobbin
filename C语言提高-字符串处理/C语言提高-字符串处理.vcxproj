@@ -84,6 +84,10 @@
     <ClCompile Include="demo02_字符串copy.c" />
     <ClCompile Include="demo04_字符串反转.c" />
     <ClCompile Include="demo03_查找字符串出现次数.c" />
+    <ClCompile Include="myString.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

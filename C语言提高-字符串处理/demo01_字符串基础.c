@@ -239,7 +239,7 @@ void test_strarr_pointer_bound()
 /*
  * 字符串trim(两头堵模型)
  */
-int trimSpace(const char *inbuf, char *outbuf)
+static int trimSpace(const char *inbuf, char *outbuf)
 {
 	int rv = 0;
 
@@ -512,7 +512,7 @@ void test_truefalseValue()
 	}
 }
 
-int main()
+int main_01()
 {
 
 	// test_strcpy();

@@ -335,7 +335,7 @@ void test_103()
 	// 检查内存，释放了 10M+ 即为数据内存
 }
 
-void main(){
+void main_0001(){
 
 	test_102();
 	system("pause");
