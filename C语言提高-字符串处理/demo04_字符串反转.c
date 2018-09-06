@@ -3,7 +3,7 @@
 #include "string.h"
 
 
-int  main2(){
+int  main_041(){
 	char c;
 	char str[] = "robbin";
 	int len = strlen(str);

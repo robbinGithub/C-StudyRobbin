@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include<stdio.h>
 #include<string.h>
-void main(){
+void main_031(){
 	char *sub = "abcd";
 	int count = 0;
 	char *p = "abcd135435435435435abcd";

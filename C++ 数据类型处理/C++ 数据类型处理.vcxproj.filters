@@ -41,5 +41,8 @@
     <ClCompile Include="demo03_自定义xsring测试.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo4_关于C++ double浮点数精度丢失的分析_robbin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

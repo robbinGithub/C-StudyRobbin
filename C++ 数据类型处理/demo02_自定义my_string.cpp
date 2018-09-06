@@ -87,7 +87,7 @@ my_string::my_string()
 	str_ptr = NULL;
 }
 
-int main(int argc, char* argv[])
+int main_0201(int argc, char* argv[])
 {
 	char str[100] = { 0 };
 	my_string *obj_ptr = NULL;
