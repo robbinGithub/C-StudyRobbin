@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AA.cpp" />
+    <ClCompile Include="demo02_C++函数返回值发生的对象复制_robbin.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -40,7 +40,7 @@ void test_02()
 	cout << "=====test_01 End========" << endl;
 }
 
-int main()
+int main_001()
 {
 
 	test_02();
