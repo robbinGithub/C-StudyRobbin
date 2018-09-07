@@ -42,15 +42,16 @@ public:
 	}
 };
 int main() {
+
 	C2 c2;
 
-	printf("== 返回非引用，会发生复制，调用拷贝构造函数");
-	C1 c1 = c2.getC1();     
-	printf("== 返回引用，接收的也是引用，不会发生复制");
-	C1 &c1 = c2.getC_Ref(); 
-	printf("== 返回引用，接收的不是引用，会发生复制==");
-	C1 _c1 = c2.getC_Ref(); 
+	printf("== 返回非引用，会发生复制，调用拷贝构造函数\n");
+	C1 c11 = c2.getC1();     
+	printf("== 返回引用，接收的也是引用，不会发生复制\n");
+	C1 &c12 = c2.getC_Ref(); 
+	printf("== 返回引用，接收的不是引用，会发生复制==\n");
+	C1 _c13 = c2.getC_Ref(); 
 	
-	cout << (int)(&c1) << endl << (int)(&c2.c1) << endl;
+	cout << (int)(&c11) << endl << (int)(&c2.c1) << endl;
 	return 0;
 }
