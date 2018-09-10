@@ -41,7 +41,7 @@ public:
 		return c1;
 	}
 };
-int main() {
+int main_02() {
 
 	C2 c2;
 
