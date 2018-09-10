@@ -33,7 +33,10 @@
     <ClCompile Include="复件 demo09_多继承的真正应用场景.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="demo07_多继承二义性.cpp">
+    <ClCompile Include="复件 demo07_多继承二义性.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Robbin01_多态理论基础.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

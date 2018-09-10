@@ -12,9 +12,15 @@ using namespace std;
  */
 
 void test_01()
-{
+{  
+	// 构造函数
 	AA a(1);      // 创建对象a
 	AA b = AA(2); // 创建对象b
+
+	// 拷贝构造函数
+	AA c(b);    
+
+	// 赋值操作
 	a = AA(3);    // 创建临时对象，调用赋值运算,临时对象析构 【构造->赋值->析构】
 	
 	//调用AA构造函数1
@@ -31,19 +37,31 @@ void test_01()
 
 void test_02()
 {
-	AA a(0);
-	for (int i = 1; i < 5; i++)
+	AA a(0); // 调用AA构造函数0
+	for (int i = 1; i <= 5; i++)
 	{
 		a = AA(i); // AA(i)是临时对象，使用结束后释放
+		
+		//调用AA构造函数1
+		//调用AA赋值函数1
+		//调用AA析构函数1
 	}
 
+	cout << "===== seporator ========" << endl;
+
+	AA * p_a;
+	for (int i = 1; i <= 5; i++)
+	{
+		p_a = new AA(i); 
+		delete p_a;
+	}
 	cout << "=====test_01 End========" << endl;
 }
 
-int main_001()
+int main_01()
 {
 
-	test_02();
+	test_01();
 
 	system("pause");
 	return 0;
