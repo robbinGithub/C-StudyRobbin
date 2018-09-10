@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "实验楼-C语言实现 web
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 多线程编程", "C++ 多线程编程\C++ 多线程编程.vcxproj", "{361AF255-51A4-4CCE-8F5D-04A576C6F5BC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "学习项目-C++ 实现模拟银行排队", "学习项目-C++ 实现模拟银行排队\学习项目-C++ 实现模拟银行排队.vcxproj", "{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -907,6 +909,24 @@ Global
 		{361AF255-51A4-4CCE-8F5D-04A576C6F5BC}.Release|Win32.Build.0 = Release|Win32
 		{361AF255-51A4-4CCE-8F5D-04A576C6F5BC}.Release|x64.ActiveCfg = Release|x64
 		{361AF255-51A4-4CCE-8F5D-04A576C6F5BC}.Release|x64.Build.0 = Release|x64
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|ARM.ActiveCfg = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|Win32.Build.0 = Debug|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|x64.ActiveCfg = Debug|x64
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Debug|x64.Build.0 = Debug|x64
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|ARM.ActiveCfg = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|ARM64.ActiveCfg = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|Win32.ActiveCfg = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|Win32.Build.0 = Release|Win32
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|x64.ActiveCfg = Release|x64
+		{6C06BD06-72BE-4F5D-8CFF-D78FFEF12AFD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

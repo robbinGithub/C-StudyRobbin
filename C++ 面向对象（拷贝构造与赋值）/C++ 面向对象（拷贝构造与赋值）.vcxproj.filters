@@ -18,7 +18,10 @@
     <ClCompile Include="AA.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="demo02_函数返回值发生的对象复制_robbin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo01_拷贝构造与赋值操作区别_robbin.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
