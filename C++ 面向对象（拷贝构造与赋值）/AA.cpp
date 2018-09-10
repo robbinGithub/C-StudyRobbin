@@ -8,6 +8,16 @@ AA::AA(int v)
    cout << "调用AA构造函数" <<a<< endl;
 }
 
+AA::~AA()
+{
+	cout << "调用AA析构函数" << a << endl;
+}
+
+AA::AA(const AA & other)
+{
+	a = other.a;
+	cout << "调用AA拷贝构造函数" << a << endl;	
+}
 
 AA& AA::operator = (const  AA &aa)
 {  
@@ -16,7 +26,3 @@ AA& AA::operator = (const  AA &aa)
 	return *this;
 }
 
-AA::~AA()
-{
-	cout << "调用AA析构函数" << a << endl;
-}

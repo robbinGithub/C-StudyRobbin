@@ -78,7 +78,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="demo07_多继承二义性.cpp" />
+    <ClCompile Include="复件 demo07_多继承二义性.cpp" />
+    <ClCompile Include="Robbin01_多态理论基础.cpp" />
     <ClCompile Include="复件 demo02_重载和重写.cpp" />
     <ClCompile Include="复件 demo05_父类的构造函数里面能产生多态吗.cpp" />
     <ClCompile Include="复件 demo06_父子对象指针混搭风.cpp" />

@@ -20,11 +20,19 @@ void swap01(int array[], int i, int j)
 	array[j] = temp;
 }
 
+/*
+ *  选择排序
+ *  12, 5, 433, 253
+ *  
+ *  1、外循环:  0 - (len-1)
+ *  2、内循环:  选择剩余元素中最小元素下标
+ *  
+ */
 void SelectionSort(int array[], int len) // O(n*n)
 {
 	int i = 0;
 	int j = 0;
-	int k = -1;
+	int k = -1;  // 最小元素下标
 
 	for(i=0; i<len; i++)
 	{
