@@ -22,6 +22,8 @@ void swap01(int array[], int i, int j)
 
 /*
  *  选择排序
+ *  
+ *  依次数组中未排序的数值，找到最小/最大值，放入排序好的序列后面。
  *  12, 5, 433, 253
  *  
  *  1、外循环:  0 - (len-1)
@@ -48,7 +50,7 @@ void SelectionSort(int array[], int len) // O(n*n)
 	}
 }
 
-int main()
+int main_01()
 {
 	//int array[] = {12, 5, 433, 253, 216, 7};
 	int array[] = {12, 5, 433, 253};

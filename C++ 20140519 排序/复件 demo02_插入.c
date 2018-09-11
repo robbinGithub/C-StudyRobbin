@@ -13,6 +13,12 @@ void printArray02(int array[], int len)
 
 	printf("\n");
 }
+
+/*
+ * 插入排序
+ *
+ * 依次选择数组中未排序的值，插入前面已经排好的序列中，涉及数据移动。
+ */
 void InertionSort(int array[], int len) // O(n*n)
 {
 	int i = 0;
