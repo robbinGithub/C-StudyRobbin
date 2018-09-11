@@ -10,6 +10,15 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cfg_op.c" />
+    <ClCompile Include="myop.c" />
+    <ClCompile Include="test_interface.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cfg_op.h" />
+    <ClInclude Include="myop.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A4080DD8-AEFE-44EC-9B4D-12E8C925DB3B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
