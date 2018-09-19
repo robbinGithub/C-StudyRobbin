@@ -17,6 +17,11 @@ void swap5(int array[], int i, int j)
 	array[j] = temp;
 }
 
+/*
+ * 分区函数
+ * {12, 5, 433, 253, 216, 7};
+ * 
+ */
 int partition(int array[], int low, int high)
 {
 	int pv = array[low];
@@ -41,10 +46,14 @@ int partition(int array[], int low, int high)
 	return low;
 }
 
+/*
+ * 递归调用QSort
+ */
 void QSort(int array[], int low, int high)
 {
 	if( low < high )
-	{
+	{   
+		// 分区->左->右 
 		int pivot = partition(array, low, high);
 
 		QSort(array, low, pivot-1);
