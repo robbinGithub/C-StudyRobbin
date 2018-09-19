@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "学习项目-C++ 实现模�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 20140430 结构体读写", "C++ 20140430 结构体读写\C++ 20140430 结构体读写.vcxproj", "{A4080DD8-AEFE-44EC-9B4D-12E8C925DB3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 算法与数据结构-队和树", "C++ 算法与数据结构-队和树\C++ 算法与数据结构-队和树.vcxproj", "{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -927,6 +929,24 @@ Global
 		{A4080DD8-AEFE-44EC-9B4D-12E8C925DB3B}.Release|Win32.ActiveCfg = Release|Win32
 		{A4080DD8-AEFE-44EC-9B4D-12E8C925DB3B}.Release|Win32.Build.0 = Release|Win32
 		{A4080DD8-AEFE-44EC-9B4D-12E8C925DB3B}.Release|x64.ActiveCfg = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|ARM.ActiveCfg = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|Win32.Build.0 = Debug|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|x64.ActiveCfg = Debug|x64
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Debug|x64.Build.0 = Debug|x64
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|Any CPU.ActiveCfg = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|ARM.ActiveCfg = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|ARM64.ActiveCfg = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|Win32.ActiveCfg = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|Win32.Build.0 = Release|Win32
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|x64.ActiveCfg = Release|x64
+		{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
