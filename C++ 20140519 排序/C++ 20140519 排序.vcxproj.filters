@@ -36,7 +36,10 @@
     <ClCompile Include="demo02_创建二叉树方法.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="demo03线索二叉树_ThreadBinaryTree.c">
+    <ClCompile Include="demo03_线索二叉树_ThreadBinaryTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo07_堆排序_robbin.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
