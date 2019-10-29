@@ -15,25 +15,49 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="cfg.ini" />
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cfg_op.c">
+    <ClInclude Include="HttpSourceViewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSourceViewerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HttpSourceViewer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="demo_03_接口封装功能抽象课堂演练.c">
+    <ClCompile Include="HttpSourceViewerDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test_interface.c">
+    <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cfg_op.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="demo01_接口封装和设计思路分析.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ResourceCompile Include="HttpSourceViewer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\HttpSourceViewer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\HttpSourceViewer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

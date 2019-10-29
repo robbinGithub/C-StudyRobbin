@@ -78,8 +78,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="myfifo1.c" />
+    <ClCompile Include="myfifo2.c" />
     <ClCompile Include="server.c" />
+    <ClCompile Include="server3.c" />
     <ClCompile Include="sock.c" />
+    <ClCompile Include="sock3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
