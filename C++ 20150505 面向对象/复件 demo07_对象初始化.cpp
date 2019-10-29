@@ -27,12 +27,13 @@ class ABC
 
 };
 void initObj()
-{
+{  
+	// ABC a; // 类ABC不存在默认构造函数
 	ABC(1, 2, 3);
 
 }
 
-int  main070()
+int main_071()
 {    
 	initObj();
 	system("pause");

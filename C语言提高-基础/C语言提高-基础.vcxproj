@@ -84,6 +84,7 @@
     <ClCompile Include="demo07-测试堆栈的属性.cpp" />
     <ClCompile Include="demo08_指针铁律.cpp" />
     <ClCompile Include="free函数和大小端内存.cpp" />
+    <ClCompile Include="数据类型长度.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
