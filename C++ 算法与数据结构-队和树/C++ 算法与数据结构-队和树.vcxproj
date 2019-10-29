@@ -117,6 +117,8 @@
   <ItemGroup>
     <ClCompile Include="demo01_树的表示法.c" />
     <ClCompile Include="demo02_树的遍历.c" />
+    <ClCompile Include="moc\BST.cpp" />
+    <ClCompile Include="moc\Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
