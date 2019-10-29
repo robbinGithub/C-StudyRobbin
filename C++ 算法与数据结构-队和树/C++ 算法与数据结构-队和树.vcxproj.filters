@@ -21,5 +21,11 @@
     <ClCompile Include="demo02_树的遍历.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="moc\BST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
