@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29728.190
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 语法基础", "C++StudyRobbin\C++StudyRobbin.vcxproj", "{56BF3EF5-37AD-4651-B441-5BE0F28A2898}"
 EndProject
@@ -116,8 +116,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HttpSourceViewer", "HttpSourceViewer\HttpSourceViewer.vcxproj", "{4695D0DE-9488-4930-807B-881C8B9D9945}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCILibConnectOracle", "OCILibConnectOracle\OCILibConnectOracle.vcxproj", "{BC7251DA-19F5-4888-BB97-1388590DABC1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 算法与数据结构-串", "C++ 算法与数据结构-串\C++ 算法与数据结构-串.vcxproj", "{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1089,24 +1087,6 @@ Global
 		{BC7251DA-19F5-4888-BB97-1388590DABC1}.Release|Win32.Build.0 = Release|Win32
 		{BC7251DA-19F5-4888-BB97-1388590DABC1}.Release|x64.ActiveCfg = Release|x64
 		{BC7251DA-19F5-4888-BB97-1388590DABC1}.Release|x64.Build.0 = Release|x64
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|ARM.ActiveCfg = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|ARM64.ActiveCfg = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|Win32.Build.0 = Debug|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|x64.ActiveCfg = Debug|x64
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Debug|x64.Build.0 = Debug|x64
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|Any CPU.ActiveCfg = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|ARM.ActiveCfg = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|ARM64.ActiveCfg = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|Win32.ActiveCfg = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|Win32.Build.0 = Release|Win32
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|x64.ActiveCfg = Release|x64
-		{E52EAFDC-B550-403B-94EA-23CA5A3EAB1B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
