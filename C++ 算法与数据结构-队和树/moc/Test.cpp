@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+int main_test() {
 	std::cout << "Hello, World!" << std::endl;
 	BST<string, int>*  bst = new BST<string, int>();
 

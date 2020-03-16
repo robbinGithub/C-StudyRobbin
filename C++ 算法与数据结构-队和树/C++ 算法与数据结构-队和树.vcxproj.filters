@@ -27,5 +27,8 @@
     <ClCompile Include="moc\Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo03_树的非递归算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

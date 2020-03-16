@@ -22,13 +22,13 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{32E0EB1D-87EE-4052-A2BC-229ADF5CC396}</ProjectGuid>
     <RootNamespace>C算法与数据结构队和树</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="demo01_树的表示法.c" />
     <ClCompile Include="demo02_树的遍历.c" />
+    <ClCompile Include="demo03_树的非递归算法.cpp" />
     <ClCompile Include="moc\BST.cpp" />
     <ClCompile Include="moc\Test.cpp" />
   </ItemGroup>

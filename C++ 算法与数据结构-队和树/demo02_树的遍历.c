@@ -143,7 +143,7 @@ BiNode *copyTree(BiNode *T)
 
 	return newNode;
 }
-void main()
+void main_day02()
 {
 	BiNode t1, t2, t3, t4, t5;
 	memset(&t1, 0, sizeof(BiNode));
